@@ -4,7 +4,7 @@ This project hopes to simplify monitoring CO2 levels using Home-Assistant or the
 Aria Fissa uses the easily procurable CO2 sensor (MH-Z19) and the NodeMCU v3.
 
 
-![AriaFissa](demo/board.gif)
+![AriaFissaPCB](Aria-Fissa-pcb/Aria-Fissa-pcb.png)
 
 
 
@@ -28,3 +28,6 @@ There are two options to mount the MH-Z19 to the PCB:
 	 - *Not all MH-Z19 sensors have a JST mount*
 
  For mounting the NodeMCU board either solder it directly to the PCB or use `2.54mm Pitch 0.1 1x15 15 Pin 15p Female Dupont Header`
+ 
+ Here is a fully functioning board: 
+![AriaFissa](demo/board.gif)
