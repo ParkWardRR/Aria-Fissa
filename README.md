@@ -1,11 +1,12 @@
 
+
 # Aria Fissa Project
 This project hopes to simplify monitoring CO2 levels using Home-Assistant or the more compatible MQTT protocol. 
 Aria Fissa uses the easily procurable CO2 sensor (MH-Z19) and the NodeMCU v3.
 
+![AriaFissa](demo/board.gif)
 
-![AriaFissaPCB](Aria-Fissa-pcb/Aria-Fissa-pcb-small.png)
-
+![Home Assistant](demo/HAS_Panel.png)
 
 
 ## Ingredients
@@ -32,3 +33,10 @@ There are two options to mount the MH-Z19 to the PCB:
  Here is a fully functioning board: 
  
 ![AriaFissa](demo/board.gif)
+
+
+## Next Steps
+Configure the NodeMCU board for your environment
+
+ - MQTT Tutorial
+ - Home-Assistant
