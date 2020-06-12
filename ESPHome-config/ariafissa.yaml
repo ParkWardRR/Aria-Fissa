@@ -1,0 +1,42 @@
+esphome:
+  name: ariafissa
+  platform: ESP8266
+  board: nodemcuv2
+
+wifi:
+  ssid: "MyInternet"
+  password: "ariafissa"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "ariafissa Fallback Hotspot"
+    password: "ariafissa"
+
+captive_portal:
+
+# Enable logging
+logger:
+  baud_rate: 0
+
+
+# Enable Home Assistant API
+api:
+  password: "ariafissa"
+
+ota:
+  password: "ariafissa"
+
+# mh-z19 config
+uart:
+  rx_pin: GPIO3
+  tx_pin: GPIO1
+  baud_rate: 9600
+
+sensor:
+  - platform: mhz19
+    co2:
+      name: "MH-Z19 CO2 Value"
+    temperature:
+      name: "MH-Z19 Temperature"
+    update_interval: 5s
+    automatic_baseline_calibration: false
