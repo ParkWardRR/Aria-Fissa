@@ -36,4 +36,4 @@ There are two options to mount the MH-Z19 to the PCB:
 Configure the NodeMCU board for your environment
 
  - MQTT Tutorial
- - [Home-Assistant (using ESPHome)](Aria-Fissa/tree/master/ESPHome-config) 
+ - [Home-Assistant (using ESPHome)](Aria-Fissa/ESPHome-config/) 
